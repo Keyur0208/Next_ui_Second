@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.animation{
+    background-image: url('/animation_image.png'); 
+    background-color: #111827;
+    background-position:right;
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {background-position: center;}
+    
+  }
+
